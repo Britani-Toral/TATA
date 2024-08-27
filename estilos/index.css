@@ -1,0 +1,57 @@
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+body {
+    background-image: url('/TATA/imagenes/Dos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    background-color: rgba(254, 255, 248, 0.60); /* Fondo blanco con 80% de opacidad */
+    padding: 0px 20px 25px 20px;
+    margin: auto;
+    border-radius: 12px;
+    height: auto;
+    width: 500px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.748); /* Sombra */
+}
+
+.escudo {
+    width: 200px;  /* Ajusta el ancho a 200 píxeles */
+    height: auto;  /* La altura se ajustará automáticamente para mantener la proporción */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+.btn-primary {
+    background-color: #c6b46c;
+    border-color: #7b701f;
+}
+
+footer{
+    background-size: cover;
+    background-color: rgba(3, 3, 3, 0.3); /* Fondo blanco con 80% de opacidad */
+    text-decoration-color: rgb(112, 112, 112);
+    color: rgba(167, 167, 167, 0.884);
+}
+
+header{
+    background-color: rgba(215, 215, 215, 0.3); /*  Fondo blanco con 80% de opacidad */
+}
+
+.lzc{
+    width: 210px;
+}
+
+

@@ -1,0 +1,60 @@
+body {
+    background-image: url('/TATA/imagenes/falumnos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(254, 255, 248, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.748);
+}
+
+.background-image {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 30px 10px 35px;
+}
+
+.containerUno {
+    background-color: rgba(254, 255, 248, 0.8);
+    margin: auto;
+    border-radius: 12px;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 55px rgba(0, 0, 0, 0.748);
+}
+
+.btn-primary {
+    background-color: #c6b46c;
+    border-color: #7b701f;
+}
+
+@media (max-width: 768px) {
+    .background-image {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+footer{
+    background-color: rgba(3, 3, 3, 0.3); /* Fondo blanco con 80% de opacidad */
+    text-decoration-color: rgb(112, 112, 112);
+    color: rgba(167, 167, 167, 0.884);
+}
+
+.lzc{
+    width: 210px;
+}
